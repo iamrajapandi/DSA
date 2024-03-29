@@ -6,6 +6,7 @@ import java.util.*;
 public class graphBFS {
     int v;
    LinkedList<Integer>l[]; 
+    @SuppressWarnings("unchecked")
     graphBFS(int v)
     {
         this.v=v;
